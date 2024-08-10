@@ -1,2 +1,30 @@
-# projeto-inicial-fetch-github-api
-Repositório contendo os arquivos iniciais do projeto de Fetch e GitHub API
+# GitHub User Profile Search
+
+## Description
+
+A mechanism to search for user profiles and repositories by their user names.
+
+## Screenshot
+
+### Preview 
+
+<img src="./src/design/inactive-preview.png" alt="inactive project preview">
+
+---
+
+### User Found
+
+<img src="./src/design/project-preview.png">
+
+## Built with
+
+ - Semantic HTML Markup
+ - CSS custom properties
+ - JS
+ - [GitHub API](https://docs.github.com/pt/rest/quickstart?apiVersion=2022-11-28)
+
+## Author
+
+- Github - [MiguelRAlves](https://www.github.com/miguelralves/)
+- Instagram - [@ribeiroalvess14](https://www.instagram.com/ribeiroalvess14)
+- LinkedIn - [Miguel_Ribeiro_Alves](https://www.linkedin.com/in/miguel-ribeiro-alves-544879280)
