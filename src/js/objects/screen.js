@@ -9,7 +9,7 @@ const screen = {
                 <p class="login"> ${user.login ?? "Não possui login cadastrado"}</p>
                 <p class="bio">${user.bio ?? "Não possui bio cadastrada"}</p>
                 <p class="followers">Followers:👥  <span>${user.followers}</span></p>
-                <p class="following">Following:✔️  <span>${user.following}</span></p>
+                <p class="following">Following:❤  <span>${user.following}</span></p>
             </div>
         </div>`
 
