@@ -14,7 +14,6 @@ const screen = {
         </div>`
 
         let infoRepositories = ""
-
         user.repositories.forEach((repo) => {
             infoRepositories += `
             <li>
@@ -37,7 +36,6 @@ const screen = {
         }
 
         let infoEvents = ""
-
         user.events.forEach((event) => {
 
             const eventName = event.repo.name
