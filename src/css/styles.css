@@ -93,7 +93,7 @@ main {
 }
 
 .container .profile-data .info {
-  display: flex;  
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -101,6 +101,21 @@ main {
 .container .profile-data .info .data{
   padding: 40px;
   width: 50%;
+}
+
+.container .profile-data .info .data .social{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container .profile-data .info .data .social .followers{
+  font-weight: 700;
+}
+
+.container .profile-data .info .data .social .following{
+  font-weight: 700;
 }
 
 .container .profile-data .info img{
