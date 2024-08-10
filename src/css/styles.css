@@ -31,7 +31,7 @@ main {
 }
 
 .section{
-  padding: 70px 0;
+  padding: 40px 0;
 }
 
 .container {
@@ -110,11 +110,11 @@ main {
   gap: 10px;
 }
 
-.container .profile-data .info .data .social .followers{
+.container .profile-data .info .data .followers{
   font-weight: 700;
 }
 
-.container .profile-data .info .data .social .following{
+.container .profile-data .info .data .following{
   font-weight: 700;
 }
 
@@ -126,8 +126,15 @@ main {
 
 .container .profile-data .info h1{
   font-size: 20px;
-  margin-bottom: 20px;
   font-weight: 700;
+}
+
+.container .profile-data .info .login{
+  margin-bottom: 15px;
+}
+
+.container .profile-data .info .bio{
+  margin-bottom: 5px;
 }
 
 .container .profile-data .info p{
@@ -153,15 +160,64 @@ main {
   padding: 20px;
   border: 1px solid grey;  
   margin: 20px;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
+}
+
+.container .profile-data .repositories ul li a .information{
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.container .profile-data .repositories ul li a .information p{
+  background-color: gray;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 .container .profile-data .repositories ul li a:hover{
   background-color:hotpink;
   color: #fff
 }
+
+.container .profile-data .events{
+  width: 100%;
+}
+
+.container .profile-data .events h2{
+  margin-bottom: 10px;
+}
+
+.container .profile-data .events ul{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container .profile-data .events ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.container .profile-data .events ul li a:hover{
+  border-bottom: 1px solid black;
+}
+
+.container .profile-data .events ul li a{
+  font-weight: 700;
+}
+
+.container .profile-data .events ul li p{
+  color: rgb(48, 48, 48);
+}
+
 
 .container .profile-data.hide{
   display: none;
@@ -189,6 +245,14 @@ main {
   .container header #btn-search
   {
     width: 100%;
+  }
+
+  .container .profile-data{
+    padding: 0;
+  }
+
+  .container .profile-data .events ul li{
+    margin: 10px 0;
   }
 }
 
