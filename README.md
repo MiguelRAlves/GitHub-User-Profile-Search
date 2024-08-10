@@ -2,7 +2,7 @@
 
 ## Description
 
-A mechanism to search for user profiles and repositories by their user names.
+A mechanism to search for user profiles, their repositories and events by their user names.
 
 ## Screenshot
 
@@ -12,15 +12,24 @@ A mechanism to search for user profiles and repositories by their user names.
 
 ---
 
+### User not Found
+
+<img src="./src/design/user-not-found-preview.png" alt="user not found">
+
+---
+
 ### User Found
 
-<img src="./src/design/project-preview.png">
+<img src="./src/design/project-preview.png" alt="user found preview">
+
+
 
 ## Built with
 
  - Semantic HTML Markup
  - CSS custom properties
  - JS
+ - Orientation Object
  - [GitHub API](https://docs.github.com/pt/rest/quickstart?apiVersion=2022-11-28)
 
 ## Author
